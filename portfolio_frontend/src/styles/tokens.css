@@ -1,0 +1,168 @@
+:root {
+  --color-3b3b3b: #3b3b3b;
+  --color-ffffff: #ffffff;
+  --color-2d2d2d: #2d2d2d;
+  --color-f3afa8: #f3afa8;
+  --color-ff6250: #ff6250;
+  --color-009379: #009379;
+  --color-f7d684: #f7d684;
+  --color-41b883: #41b883;
+  --color-35495e: #35495e;
+  --color-e44d26: #e44d26;
+  --color-f16529: #f16529;
+  --color-ebebeb: #ebebeb;
+  --color-61dafb: #61dafb;
+  --color-f3f3f3: #f3f3f3;
+  --color-000000: #000000;
+  --color-ffdf90: #ffdf90;
+  --color-3366ff: #3366ff;
+  --color-d8d8d8: #d8d8d8;
+  --color-e5e5e5: #e5e5e5;
+  --color-f5eee6: #f5eee6;
+  --color-f1efef: #f1efef;
+  --color-2b2b2b: #2b2b2b;
+  --color-c4c4c4: #c4c4c4;
+  --color-7b61ff: #7b61ff;
+  --color-9747ff: #9747ff;
+
+  --font-family-epilogue: "Epilogue", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --font-family-mulish: "Mulish", "Epilogue", system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+  --typo-21-size: 32px; --typo-21-weight: 600; --typo-21-line: 42px; --typo-21-color: var(--color-2d2d2d);
+  --typo-22-size: 20px; --typo-22-weight: 600; --typo-22-line: 30px; --typo-22-color: var(--color-2d2d2d);
+  --typo-23-size: 17px; --typo-23-weight: 400; --typo-23-line: 27px; --typo-23-color: var(--color-2d2d2d);
+  --typo-24-size: 68px; --typo-24-weight: 600; --typo-24-line: 69.7px; --typo-24-color: var(--color-2d2d2d);
+  --typo-26-size: 27px; --typo-26-weight: 600; --typo-26-line: 42px; --typo-26-color: var(--color-2d2d2d);
+  --typo-27-size: 17px; --typo-27-weight: 400; --typo-27-line: 27px; --typo-27-color: var(--color-2d2d2d);
+  --typo-31-size: 20px; --typo-31-weight: 600; --typo-31-line: 30px; --typo-31-color: var(--color-ffffff);
+  --typo-32-size: 32px; --typo-32-weight: 600; --typo-32-line: 42px; --typo-32-color: var(--color-2d2d2d);
+
+  --space-0: 0px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-27: 27px;
+  --space-30: 30px;
+  --space-32: 32px;
+  --space-36: 36px;
+  --space-42: 42px;
+  --space-54: 54px;
+  --space-56: 56px;
+  --space-58: 58px;
+  --space-59: 59px;
+  --space-62: 62px;
+  --space-64: 64px;
+  --space-70: 70px;
+  --space-78: 78px;
+  --space-81: 81px;
+  --space-88: 88px;
+  --space-90: 90px;
+  --space-96: 96px;
+  --space-108: 108px;
+  --space-124: 124px;
+  --space-130: 130px;
+  --space-199: 199px;
+  --space-211: 211px;
+  --space-232: 232px;
+  --space-310: 310.6667px;
+  --space-330: 330px;
+  --space-394: 394.6667px;
+  --space-419: 419px;
+  --space-429: 429px;
+  --space-444: 444px;
+  --space-480: 480px;
+  --space-513: 513px;
+  --space-520: 520px;
+  --space-1232: 1232px;
+  --container-width: 1280px;
+
+  --radius-0-3: 0.3px;
+  --radius-0-5: 0.5px;
+  --radius-1: 1px;
+  --radius-3: 3px;
+  --radius-4: 4px;
+  --radius-5: 5px;
+  --radius-10: 10px;
+  --radius-14-46: 14.4641px;
+  --radius-14-61: 14.6154px;
+
+  --shadow-0: 0 14.4641px 28.9281px rgba(0,0,0,0.25);
+  --shadow-1: 5px 10px 20px rgba(0,0,0,0.25);
+  --shadow-2: 0 10px 20px rgba(0,0,0,0.25);
+
+  --style-1-bg: var(--color-ffffff);
+  --style-2-bg: var(--color-2d2d2d);
+  --style-3-bg: var(--color-f3afa8);
+  --style-5-bg: var(--color-ff6250);
+  --style-7-bg: var(--color-009379);
+  --style-10-bg: var(--color-f7d684);
+  --style-16-bg: var(--color-ebebeb);
+  --style-17-bg: var(--color-61dafb);
+  --style-21-bg: var(--color-f3f3f3);
+  --style-22-bg: var(--color-2d2d2d);
+  --style-23-bg: var(--color-000000);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-ffffff);
+  color: var(--color-2d2d2d);
+  font-family: var(--font-family-epilogue);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--space-24);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-24);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.text-typo-21 { font-family: var(--font-family-epilogue); font-size: var(--typo-21-size); font-weight: var(--typo-21-weight); line-height: var(--typo-21-line); color: var(--typo-21-color); }
+.text-typo-22 { font-family: var(--font-family-epilogue); font-size: var(--typo-22-size); font-weight: var(--typo-22-weight); line-height: var(--typo-22-line); color: var(--typo-22-color); }
+.text-typo-23 { font-family: var(--font-family-epilogue); font-size: var(--typo-23-size); font-weight: var(--typo-23-weight); line-height: var(--typo-23-line); color: var(--typo-23-color); }
+.text-typo-24 { font-family: var(--font-family-epilogue); font-size: var(--typo-24-size); font-weight: var(--typo-24-weight); line-height: var(--typo-24-line); color: var(--typo-24-color); }
+.text-typo-26 { font-family: var(--font-family-epilogue); font-size: var(--typo-26-size); font-weight: var(--typo-26-weight); line-height: var(--typo-26-line); color: var(--typo-26-color); }
+.text-typo-27 { font-family: var(--font-family-epilogue); font-size: var(--typo-27-size); font-weight: var(--typo-27-weight); line-height: var(--typo-27-line); color: var(--typo-27-color); }
+.text-typo-31 { font-family: var(--font-family-epilogue); font-size: var(--typo-31-size); font-weight: var(--typo-31-weight); line-height: var(--typo-31-line); color: var(--typo-31-color); text-align: center; }
+.text-typo-32 { font-family: var(--font-family-epilogue); font-size: var(--typo-32-size); font-weight: var(--typo-32-weight); line-height: var(--typo-32-line); color: var(--typo-32-color); }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--space-78);
+  padding: 0 var(--space-32);
+  border-radius: var(--radius-10);
+  background: var(--style-2-bg);
+  color: var(--color-ffffff);
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: var(--shadow-2);
+}
+
+img, svg { display: block; max-width: 100%; height: auto; }
+
+/* Visually hidden for screen-reader only text */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;
+}

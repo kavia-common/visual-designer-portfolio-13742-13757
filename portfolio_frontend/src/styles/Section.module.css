@@ -1,0 +1,20 @@
+.section {
+  padding: var(--space-36) var(--space-24);
+}
+
+.cards {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.row {
+  gap: var(--space-24);
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .row {
+    gap: var(--space-16);
+  }
+}

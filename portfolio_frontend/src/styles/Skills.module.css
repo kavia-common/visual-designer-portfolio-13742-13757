@@ -1,0 +1,53 @@
+.skillsSection {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.skillCard {
+  flex: 1 1 calc((1232px - 2 * var(--space-24)) / 3);
+  max-width: 394.6667px;
+  border-radius: var(--radius-10);
+  background: var(--style-1-bg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.cardInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-top: 24px;
+}
+
+.iconBox { position: relative; }
+.iconBg {
+  width: 124px; height: 124px; border-radius: var(--radius-10);
+  background: var(--style-3-bg);
+}
+
+.variant-2 .iconBg { background: var(--style-5-bg); }
+.variant-3 .iconBg { background: var(--style-7-bg); }
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 310.6667px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .skillCard {
+    flex: 1 1 calc(50% - var(--space-16));
+  }
+}
+
+@media (max-width: 640px) {
+  .skillCard {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
